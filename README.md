@@ -1,4 +1,4 @@
-To install all requirements needed and start api server, do this commands
+To install all requirements needed and start the best server in the world (probably), do this commands
 
 `pip install -r requirements.txt`
 
