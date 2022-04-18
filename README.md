@@ -13,4 +13,5 @@ Going straight by [localhost:8000/api/api](url) will lead you to django rest fra
 Nevertheless, have fun! (And feel free to ask me whenever you straggle with any troubles)
 
 Frontend - frontend/
+
 Backend - backend/
