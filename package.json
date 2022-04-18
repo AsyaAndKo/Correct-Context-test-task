@@ -1,0 +1,40 @@
+{
+  "name": "backendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development ./frontend/src/index.js --output-path ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output-path ./frontend/static/frontend/main.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "axios": "^0.26.1",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^27.5.1",
+    "react": "^18.0.0",
+    "react-redux": "^8.0.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.5",
+    "svg-url-loader": "^7.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@testing-library/react": "^13.1.1",
+    "prop-types": "^15.8.1",
+    "react-test-renderer": "^18.0.0",
+    "validator": "^13.7.0"
+  }
+}
