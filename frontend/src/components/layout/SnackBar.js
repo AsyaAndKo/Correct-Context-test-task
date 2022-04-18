@@ -18,7 +18,7 @@ export default function SnackBar() {
       <TickImg src={state.image} alt="Tick" />
       <MessageLabel color={state.color}>{state.message}</MessageLabel>
       <CloseButton onClick={() => dispatch(setSnackBarOpen({ open: "close" }))}>
-        <img src={Close} alt="close" />
+        <TickImg src={Close} alt="close" />
       </CloseButton>
     </SnackBarContainer>
   );
